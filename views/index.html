@@ -11,7 +11,85 @@
     <script src="../public/js/calculator.js"></script>
 </head>
 <body>
-    
+    <br>
+    <br>
+    <br>
+
+
+    <!--start of calculator-->
+    <table class="text-center d-flex justify-content-center">
+        <tr>
+            <td colspan="4" >
+                <input type="text" id="result">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <button type="button" class="btn btn-outline-info" onclick="clearResult()">C</button>
+            </td>
+            <td>
+                <button type="button" class="btn btn-outline-info" onclick="plusMinus()">+/-</button>
+            </td>
+            <td>
+                <button type="button" class="btn btn-outline-info" onclick="percentage()">%</button>
+            </td>
+            <td>
+                <button type="button" class="btn btn-outline-info" onclick="buttonNum('/')">/</button>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <button type="button" class="btn btn-outline-info" onclick="buttonNum('7')">7</button>
+            </td>
+            <td>
+                <button type="button" class="btn btn-outline-info" onclick="buttonNum('8')">8</button>
+            </td>
+            <td>
+                <button type="button" class="btn btn-outline-info" onclick="buttonNum('9')">9</button>
+            </td>
+            <td>
+                <button type="button" class="btn btn-outline-info" onclick="buttonNum('*')">*</button>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <button type="button" class="btn btn-outline-info" onclick="buttonNum('4')">4</button>
+            </td>
+            <td>
+                <button type="button" class="btn btn-outline-info" onclick="buttonNum('5')">5</button>
+            </td>
+            <td>
+                <button type="button" class="btn btn-outline-info" onclick="buttonNum('6')">6</button>
+            </td>
+            <td>
+                <button type="button" class="btn btn-outline-info" onclick="buttonNum('-')">-</button>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <button type="button" class="btn btn-outline-info" onclick="buttonNum('1')">1</button>
+            </td>
+            <td>
+                <button type="button" class="btn btn-outline-info" onclick="buttonNum('2')">2</button>
+            </td>
+            <td>
+                <button type="button" class="btn btn-outline-info" onclick="buttonNum('3')">3</button>
+            </td>
+            <td>
+                <button type="button" class="btn btn-outline-info" onclick="buttonNum('+')">+</button>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2">
+                <button type="button" class="btn btn-outline-info btntake2" onclick="buttonNum('0')">0</button>
+            </td>
+            <td colspan="2">
+                <button type="button" class="btn btn-outline-info btntake2" onclick="calculateResult()">=</button>
+            </td>
+            
+        </tr>
+    </table>
+    <!--end of calculator-->
 
 
 
